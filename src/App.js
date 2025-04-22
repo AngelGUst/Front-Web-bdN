@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ProductProvider } from './context/ProductContext';
+import { ProductProvider } from './context/ProductContex';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/HomePage/HomePage';
 import ProductsPage from './pages/ProductsPage/ProductsPage';
-import AddProductPage from './pages/AddProductPage/AddProductPage';
+import AddProductPage from './pages/AddProductPage/AddProductsPage';
 import EditProductPage from './pages/EditProductPage/EditProductPage';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import './App.css';

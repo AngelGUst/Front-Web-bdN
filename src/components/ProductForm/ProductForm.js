@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
-import './ProductForm.css';
+import './ProductFrom.css';
 const ProductForm = ({ producto, onSubmit, isEditing = false }) => {
     const navigate = useNavigate();
     // Configurar react-hook-form

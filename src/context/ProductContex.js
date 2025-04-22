@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import productoService from '../services/api';
+
 // Creamos el contexto
 const ProductContext = createContext();
 // Hook personalizado para usar el contexto

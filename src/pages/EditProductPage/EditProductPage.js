@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ProductForm from '../../components/ProductForm/ProductForm';
-import { useProductContext } from '../../context/ProductContext';
+import { useProductContext } from '../../context/ProductContex';
 import productoService from '../../services/api';
 import './EditProductPage.css';
 const EditProductPage = () => {

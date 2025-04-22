@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useProductContext } from '../../context/ProductContext';
+import { useProductContext } from '../../context/ProductContex';
 import './ProductList.css';
 const ProductList = () => {
     const { productos, loading, error, deleteProducto } = useProductContext();
